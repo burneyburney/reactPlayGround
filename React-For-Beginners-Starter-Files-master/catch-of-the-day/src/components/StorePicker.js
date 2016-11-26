@@ -6,7 +6,7 @@ class StorePicker extends React.Component { // create component, cap first compo
             <form className="store-selector">
             <h2>Please Enter A Store</h2>
             <input type="text" required placeholder="Store Name"/>
-        
+
             </form>//can only return 1 parent element
         )
     }
