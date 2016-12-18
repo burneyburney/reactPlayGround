@@ -14,7 +14,7 @@ class Header extends React.Component{
                 </h1>
                 <h3 className="tagline">{this.props.tagline}</h3>
             </header>
-        )
+         )
     }
 }
 
