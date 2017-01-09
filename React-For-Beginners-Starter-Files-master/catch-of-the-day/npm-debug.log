@@ -1,7 +1,7 @@
 0 info it worked if it ends with ok
 1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'start' ]
-2 info using npm@3.10.8
-3 info using node@v6.8.1
+2 info using npm@4.0.5
+3 info using node@v7.4.0
 4 verbose run-script [ 'prestart', 'start', 'poststart' ]
 5 info lifecycle cotd@0.0.1~prestart: cotd@0.0.1
 6 silly lifecycle cotd@0.0.1~prestart: no script for prestart, continuing
@@ -14,20 +14,20 @@
 13 info lifecycle cotd@0.0.1~start: Failed to exec start script
 14 verbose stack Error: cotd@0.0.1 start: `react-scripts start`
 14 verbose stack Exit status 1
-14 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+14 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:279:16)
 14 verbose stack     at emitTwo (events.js:106:13)
 14 verbose stack     at EventEmitter.emit (events.js:191:7)
 14 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:40:14)
 14 verbose stack     at emitTwo (events.js:106:13)
 14 verbose stack     at ChildProcess.emit (events.js:191:7)
-14 verbose stack     at maybeClose (internal/child_process.js:877:16)
+14 verbose stack     at maybeClose (internal/child_process.js:885:16)
 14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
 15 verbose pkgid cotd@0.0.1
 16 verbose cwd /Users/michaelburney/Documents/githubFun/reactPlayGround/React-For-Beginners-Starter-Files-master/catch-of-the-day
 17 error Darwin 15.6.0
 18 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "start"
-19 error node v6.8.1
-20 error npm  v3.10.8
+19 error node v7.4.0
+20 error npm  v4.0.5
 21 error code ELIFECYCLE
 22 error cotd@0.0.1 start: `react-scripts start`
 22 error Exit status 1
