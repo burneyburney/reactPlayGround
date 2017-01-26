@@ -1,14 +1,17 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'start' ]
-2 info using npm@4.1.1
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'start',
+1 verbose cli   'catch-of-the-day/' ]
+2 info using npm@3.10.10
 3 info using node@v6.9.4
 4 verbose stack Error: ENOENT: no such file or directory, open '/Users/michaelburney/Documents/githubFun/reactPlayGround/React-For-Beginners-Starter-Files-master/package.json'
 4 verbose stack     at Error (native)
 5 verbose cwd /Users/michaelburney/Documents/githubFun/reactPlayGround/React-For-Beginners-Starter-Files-master
 6 error Darwin 15.6.0
-7 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "start"
+7 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "start" "catch-of-the-day/"
 8 error node v6.9.4
-9 error npm  v4.1.1
+9 error npm  v3.10.10
 10 error path /Users/michaelburney/Documents/githubFun/reactPlayGround/React-For-Beginners-Starter-Files-master/package.json
 11 error code ENOENT
 12 error errno -2
